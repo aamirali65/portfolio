@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'Stockholm';
+  src: url('/assets/font/Lexend-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  user-select: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.primary{
+  background-color: #171513;
+}
+.bg-primary{
+  background-color: #171513;
+}
+.anime:hover{
+  transform: translateY(-10px) !important;
+}
+.anime{
+  transition: 0.22s all !important;
+  cursor: pointer;
+}
+html, body {
+  height: 100%;
+}
+.font-stock{
+  font-family: Stockholm !important;
 }
