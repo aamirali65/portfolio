@@ -5,6 +5,15 @@ import GlareHover from '../blitz/card';
 
 const experiences = [
     {
+        company: 'Aptech Gulshan Hadeed',
+        role: 'Visiting Faculty',
+        period: 'Sept 2025 - Present',
+        location: 'On-Site',
+        img: '/assets/img/companies/aptech.jpg',
+        description: 'Delivered hands-on instruction in cross-platform mobile app development using Flutter and Dart. Guided students through integrating Firebase and Supabase for authentication, real-time data syncing, and backend management. Worked closely with UI/UX concepts to help build responsive, smooth, and user-friendly mobile interfaces. Emphasized best practices in app performance optimization and continuous deployment using CI/CD pipelines.',
+        skills: ['HTML', 'CSS', 'Javascript', 'PHP', 'Flutter', 'React.js', 'Next.js', 'Firebase', 'Dart', 'Laravel']
+      },      
+    {
         company: 'Zilo Digital',
         role: 'Flutter Developer',
         period: 'Feb 2025 - Present 5 Month',

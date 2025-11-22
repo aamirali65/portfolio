@@ -10,12 +10,45 @@ const Project = () => {
 
   const projects = [ 
     {
+      img: "/assets/img/project/doc.png",
+      skills:['Flutter','Provider', 'Supabase'],
+      title:'DocScan - Document Scanner',
+      date:'Oct 25 - Nov 2025',
+      description:"DocScan is an open-source Flutter app that lets you scan documents, recognize text, and edit it instantly using Google ML Kit Text Recognition.",
+      url:'https://github.com/aamirali65/docscanner'
+    },
+    {
+      img: "/assets/img/project/job.png",
+      skills:['Flutter','Provider', 'Supabase'],
+      title:'hireMe - Job Portal',
+      date:'Aug 25 - Sep 2025',
+      description:"hireMe is an open source job portal built with Flutter and Supabase. It provides a simple yet powerful platform for job seekers and recruiters to connect in real time.",
+      url:'https://github.com/aamirali65/hireMe-JobPortal-Flutter'
+    },
+    {
+      
+      img: "/assets/img/project/currency.jpg",
+      skills:['Flutter','Provider', 'Firebase'],
+      title:'CurrenSee - Currency Converter',
+      date:'Oct 24 - Dec 2024',
+      description:"A modern currency converter app built with Flutter. This app allows users to convert currencies, view the latest currency news, check historical exchange rates, and log in securely using authentication.",
+      url:'https://github.com/aamirali65/CurrenSee-currency-converter-app'
+    },
+    {
       img: "/assets/img/project/bidding.jpg",
       skills:['Flutter','Provider', 'Supabase'],
       title:'GoBidder - Auction App',
       date:'April 25 - June 2025',
       description:"A real-time Bidding Auction App built with Flutter and Supabase, featuring role-based authentication for buyers and sellers, live bidding functionality, and a clean, responsive UI.",
       url:'https://github.com/aamirali65/bidding-app-flutter'
+    },
+    {
+      img: "/assets/img/project/code.png",
+      skills:['Next.js','Gemini', 'RestAPI'],
+      title:'Code Converter',
+      date:'Sept 25 - Oct 2025',
+      description:"A powerful code conversion tool built with Next.js, designed to seamlessly transform code snippets between different programming languages and formats.",
+      url:'https://github.com/aamirali65/code-converter'
     },
     {
       img: "/assets/img/project/safe.png",
